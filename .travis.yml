@@ -7,4 +7,5 @@ after_success:
   - yarn start &
   - git clone --single-branch -b development https://github.com/siteadmin/inferno.git
   - cd inferno
+  - bundle install
   - rake inferno:execute[http://localhost:3000,Conformance]
