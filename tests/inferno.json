@@ -16,8 +16,7 @@
       {"cmd": "find_element", "type": "class", "value": "patient-row", "index": 0},
       {"cmd": "click"},
       {"cmd": "find_element", "type": "id", "value": "authorize"},
-      {"cmd": "click"}
-      }]
+      {"cmd": "click"}]
   },
   "sequences": [
     "Conformance",
@@ -38,8 +37,7 @@
         {"cmd": "find_element", "type": "class", "value": "patient-row", "index": 1},
         {"cmd": "click"},
         {"cmd": "find_element", "type": "id", "value": "authorize"},
-        {"cmd": "click"}
-        }]
+        {"cmd": "click"}]
     },
     "ArgonautPatient"
   ]
