@@ -4,7 +4,7 @@ node_js:
 
 after_success:
   - rvm install ruby --latest
-  - yarn start
+  - yarn start &
   - git clone --single-branch -b development https://github.com/siteadmin/inferno.git
   - cd inferno
   - rake inferno:execute[http://localhost:3000,Conformance]
