@@ -1,0 +1,14 @@
+{
+  "name": "test-server",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": "https://github.com/radamson/test-server.git",
+  "author": "radamson",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
